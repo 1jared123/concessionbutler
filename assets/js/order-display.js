@@ -1,12 +1,12 @@
-var config = {
-  apiKey: "AIzaSyDPpEKP-rTcpgLVZk2j18ZLAfgwQhriTxI",
-  authDomain: "concession-butler.firebaseapp.com",
-  databaseURL: "https://concession-butler.firebaseio.com",
-  storageBucket: "concession-butler.appspot.com",
-  messagingSenderId: "268811474889"
-};
-
-firebase.initializeApp(config);
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAHUqBtYrYj5odUsdFsyyJlMG4ZJmLslC4",
+    authDomain: "concession-helper.firebaseapp.com",
+    databaseURL: "https://concession-helper.firebaseio.com",
+    storageBucket: "concession-helper.appspot.com",
+    messagingSenderId: "899989255789"
+  };
+  firebase.initializeApp(config);
 
 var database = firebase.database();
 
